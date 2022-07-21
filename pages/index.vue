@@ -1,5 +1,5 @@
 <template>
-  <cube :size="3" />
+  <cube :size="4" />
 </template>
 
 <script lang="ts">
@@ -7,7 +7,7 @@ import Vue from 'vue'
 
 export default Vue.extend({
   name: 'IndexPage',
-})
+});
 </script>
 
 <style lang="scss">
